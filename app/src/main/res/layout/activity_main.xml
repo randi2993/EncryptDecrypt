@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:actionBarNavMode="list"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeView"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="@string/welcomeView"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnEncrypt"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="78dp"
+                        android:layout_weight="1"
+                        android:text="@string/btnEncrypt"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnDecrypt"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_weight="1"
+                        android:text="@string/btnDecrypt"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/resultView"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:text="@string/resultView"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/resultText"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:background="#E4E4E4"
+                    android:editable="false"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/resultText"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/addView"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:text="@string/addView"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addText"
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/addText"
+                    android:inputType="none"
+                    android:textIsSelectable="true"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

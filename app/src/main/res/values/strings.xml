@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EncryptorDecryptor</string>
+    <string name="welcomeView">Welcome!</string>
+    <string name="addView">Message</string>
+    <string name="resultView">Result</string>
+    <string name="addText">Add text here!</string>
+    <string name="resultText">No text to show!</string>
+    <string name="btnEncrypt">Encrypt</string>
+    <string name="btnDecrypt">Decrypt</string>
+    <string name="shareVia">Share Via</string>
+    <string name="shareResultTextEmpty">Result Text is Empty</string>
+    <string name="infoTitle">Info</string>
+    <string name="infoAddView">
+        Put the message you want to encrypt/decrypt, then clic into encrypt or decrypt to see the result.
+    </string>
+    <string name="infoResultView">
+        After select the button encrypt/decrypt, the result will show it here
+    </string>
+    <string name="infoShare">
+        Finally, you can share the result on another apps. Enjoy!
+    </string>
+    <string name="author">
+        Create by RGilgamesh, 2020-05-22
+    </string>
+    <string name="btnGoBack">
+        Back
+    </string>
+    <string name="infoTitle2">
+        Elements
+    </string>
+    <string name="info">
+        Encrypt/Decrypt App and share through another apps. It has a unique encryption  way, giving to you more security on your encode messages.
+    </string>
+</resources>

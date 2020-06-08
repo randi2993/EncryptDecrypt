@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EncryptorDecryptor</string>
+    <string name="welcomeView">Bienvenido!</string>
+    <string name="addView">Mensaje</string>
+    <string name="resultView">Resultado</string>
+    <string name="addText">Agregue el texto aquí!</string>
+    <string name="resultText">Sin resultado para mostrar!</string>
+    <string name="btnEncrypt">Encriptar</string>
+    <string name="btnDecrypt">Desencriptar</string>
+    <string name="shareVia">Compartir vía</string>
+    <string name="shareResultTextEmpty">El resultado se encuentra vacío</string>
+    <string name="infoTitle">Información</string>
+    <string name="infoAddView">
+        Ingrese su mensaje para encriptar o desencriptar, luego seleccione el botón "Encriptar" o "Desencriptar" para ver el resultado.
+    </string>
+    <string name="infoResultView">
+        Después de haber seleccionado el botón de "Encriptar" o "Desencriptar", se mostrará el resultado aquí.
+    </string>
+    <string name="infoShare">
+        Luego de encriptar/desencriptar el mensaje, usted puede compartir el resultado a través de otra app instalada. Disfruta!
+    </string>
+    <string name="author">
+        Creado por RGilgamesh, 2020-05-22
+    </string>
+    <string name="btnGoBack">
+        Ir Atrás
+    </string>
+    <string name="infoTitle2">
+        Elementos
+    </string>
+    <string name="info">
+        App para encriptar o desencriptar mensajes y poder compartirlos en otras aplicaciones. Tiene una forma de encriptación única, por lo que da mas seguridad a la hora de cifrar los mensajes.
+    </string>
+</resources>
